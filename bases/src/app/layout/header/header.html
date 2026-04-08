@@ -1,9 +1,32 @@
-<nav >
-    <h1 >Agroterra</h1>
+<nav class="max-w-6xl mx-auto px-6 py-8 flex items-center justify-between border-b border-stone-200/60">
+    <h1 class="text-2xl font-bold text-stone-900 tracking-tight">
+        Agro<span class="text-emerald-700">terra</span>
+    </h1>
     
-    <ul >
-        <li><a routerLink="">Início</a></li>
-        <li><a routerLink="situacao">Situação</a></li>
-        <li><a routerLink="desafio">Desafio</a></li>
+    <ul class="flex items-center gap-8 text-sm font-semibold text-stone-600 tracking-wide">
+        <li>
+            <a routerLink="" class="hover:text-emerald-700 transition-colors duration-300">Início</a>
+        </li>
+        <li>
+            <a routerLink="situacao" class="hover:text-emerald-700 transition-colors duration-300">Situação</a>
+        </li>
+        <li>
+            <a routerLink="desafio" class="px-4 py-2 bg-emerald-700 text-white rounded-full hover:bg-emerald-800 transition-all duration-300 shadow-sm shadow-emerald-200">
+                Desafio
+            </a>
+        </li>
     </ul>
 </nav>
+
+<header class="max-w-4xl mx-auto pt-16 pb-12 px-6 text-center">
+    <span class="inline-block px-3 py-1 mb-4 text-xs font-bold tracking-widest uppercase bg-emerald-100 text-emerald-800 rounded-full">
+        Portal Oficial da Cidade
+    </span>
+    <h1 class="text-4xl md:text-5xl font-bold text-stone-900 mb-4">
+        Bem-vindo a <span class="text-emerald-700">Agroterra</span>
+    </h1>
+    <p class="text-lg text-stone-600 max-w-2xl mx-auto italic font-light">
+        "Onde a produtividade encontra as raízes do campo."
+    </p>
+    <div class="mt-8 h-1 w-20 bg-emerald-600 mx-auto rounded-full opacity-30"></div>
+</header>
