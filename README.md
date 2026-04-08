@@ -7,3 +7,4 @@ npx -p @angular/cli ng new  --style=css --routing=true --ssr=false
 # Para entrar na pasta: cd .\calculo-imc
 # Para consultar comandos: npx ng --help
 # Para criar novo componente: npx ng g c imc. E/ou: ng g c imc main de principal todo o conteudo
+
