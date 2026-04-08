@@ -1,9 +1,18 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-sobre',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './sobre.html',
-  styleUrl: './sobre.css',
+  styleUrl: './sobre.css'
 })
-export class Sobre {}
+export class Sobre {
+  // Dados que aparecerão na página
+  nome = 'Luiza Swarowsky';
+  cargo = 'Estudante de Informática para a Internet V1';
+  frase = '"Aprendendo a aprender."';
+  
+  techs = ['TypeScript', 'Node.js', 'HTML', 'GitHub', 'Angular', 'Tailwind'];
+}
