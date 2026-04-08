@@ -6,10 +6,11 @@ import { Footer } from './layout/footer/footer';
 import { Header } from './layout/header/header';
 import { Home } from './pages/home/home';
 import { routes } from './app.routes';
+import { Sobre } from './pages/sobre/sobre';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet,RouterLink,Home,Header,Footer,Desafio,Situacao],
+  imports: [RouterOutlet,RouterLink,Home,Header,Footer,Desafio,Situacao,Sobre,routes],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
